@@ -60,4 +60,4 @@ $reportFilePath = "$($reportFolder)\ADReport_$($dateString).html"
 Set-Content -Path $reportFilePath -Value $reportHtml
  
 # HTML Report Location
-Write-Host "Rapor dosyası başarıyla oluşturuldu: $reportFilePath" -ForegroundColor Red
+Write-Host "Report was created: $reportFilePath" -ForegroundColor Red
